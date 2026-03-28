@@ -1,89 +1,138 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 📊 Caixa SLA Intelligence (Lovable App)
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+Aplicação desenvolvida com foco em monitoramento operacional de demandas de lotéricas (ULs), com análise de SLA, tempo sem atualização e identificação de criticidade em tempo real.
 
-## ✨ O que é Vibe Coding
+---
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+## 🧠 Contexto
+Quero criar uma aplicação chamada **Caixa SLA Intelligence**, voltada para monitoramento operacional de demandas, permitindo análise rápida e tomada de decisão eficiente.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+A solução transforma dados operacionais (como listas do SharePoint ou CSVs) em um **dashboard inteligente e interativo**.
 
-## 🎯 Desafio
+---
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+## 🚨 Problema
+Atualmente, o monitoramento apresenta desafios como:
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+- Dificuldade em identificar demandas críticas  
+- Falta de visibilidade de SLA  
+- Processos manuais para análise  
+- Baixa padronização na priorização  
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+👉 Isso gera:
+- Atrasos  
+- Baixa eficiência  
+- Falta de ação proativa  
 
-## 🪄 Etapas do Desafio
+---
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+## 🎯 Público-Alvo
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+- Equipes de monitoramento (NOC / CETEL)  
+- Analistas operacionais  
+- Times de suporte técnico  
+- Gestores  
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+---
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+## ⚙️ Funcionalidades
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+- 📊 Dashboard com visão geral das demandas  
+- ⏱️ Cálculo automático de SLA (CIAUS e Técnico)  
+- 🚨 Identificação de demandas críticas  
+- 🔎 Filtros por Torre, CIAUS, Status e UL  
+- 🔔 Alertas visuais e notificações  
+- 📈 Indicadores operacionais  
+- 📄 Exportação de relatórios em PDF  
+- 🌙 Tema claro/escuro  
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+---
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+## 🤖 Uso de IA (Vibe Coding)
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+A IA foi utilizada para:
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+- Gerar o conceito do sistema  
+- Definir estrutura do dashboard  
+- Criar fluxo de telas  
+- Sugerir melhorias de UX  
+- Acelerar o desenvolvimento do MVP  
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+---
 
-### 2. Explorando o Lovable na Prática
+## 🪄 Vibe Coding
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+Este projeto foi desenvolvido com base no conceito de **Vibe Coding**, onde:
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+- A ideia é descrita em linguagem natural  
+- A IA ajuda a transformar em solução  
+- O foco está na intenção, não no código  
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+---
 
-### 3. Entregando o Desafio na DIO
+## 🧪 Fluxo do Sistema
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+1. Entrada de dados (CSV / SharePoint)  
+2. Processamento (SLA, tempo, status)  
+3. Classificação de criticidade  
+4. Exibição no dashboard  
+5. Geração de alertas  
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+---
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+## 🌐 Acesse a aplicação
 
-## 💬 Conclusão
+👉 https://caixa-sla.lovable.app/
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+---
+
+## 📸 Evidências
+
+<img width="1105" height="749" alt="image" src="https://github.com/user-attachments/assets/700a7600-eb7a-40ed-be8d-b26161f00253" />
+
+
+---
+
+## 🧠 Aprendizados
+
+### ✅ O que funcionou bem
+- Prompts bem estruturados melhoraram muito os resultados  
+- Definir o problema antes ajudou a IA a entregar melhor  
+- Iteração com IA acelerou o desenvolvimento  
+
+---
+
+### ⚠️ O que não funcionou tão bem
+- Algumas respostas vieram genéricas  
+- Ajustes finos ainda exigem intervenção manual  
+- Integração com dados reais precisa de API/Automate  
+
+---
+
+### 🚀 O que aprendi
+- IA não substitui pensamento  
+- Prompt é tudo  
+- Contexto é essencial  
+- IA acelera MUITO a prototipação  
+
+---
+
+## 🏗️ Próximos passos
+
+- Integração com SharePoint  
+- API backend (FastAPI / Node)  
+- IA para análise automática de demandas  
+- Integração com Power Automate e Teams  
+- Copilot para consultas inteligentes  
+
+---
+
+## 🔥 Conclusão
+
+Este projeto demonstra como é possível:
+
+- Criar soluções reais com IA  
+- Aplicar Vibe Coding em ambiente corporativo  
+- Transformar um problema operacional em produto digital  
+
+---
